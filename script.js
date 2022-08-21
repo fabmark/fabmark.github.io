@@ -1,5 +1,5 @@
-let ABC = " AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ.,"
-var titkosABC = " PALIÁBCDEÉFGHÍJKMNOÓÖŐQRSTUÚÜŰVWXYZ.,"
+let ABC = " AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ.,?!"
+var titkosABC = " PALIÁBCDEÉFGHÍJKMNOÓÖŐQRSTUÚÜŰVWXYZ.,?!"
 
 function fade(){
 
