@@ -7,7 +7,7 @@ function fade(){
     txt.classList.add('fade-in')
     setTimeout(function () {
         txt.classList.remove("fade-in")
-      }, 3000)
+      }, 30000)
 }
 
 
