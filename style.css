@@ -1,0 +1,100 @@
+body {
+    background-image: url("pictures/starry\ night.jpg");
+    background-size: 100% auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 900px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    background-image: url("pictures/parchment\ 2.0.PNG");
+    background-size: 100% auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Caveat', cursive;
+    font-size: 125%;
+    font-weight: 600;
+}
+
+#inptxt {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    /*border: 2px solid yellow;*/
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+#inputos {
+    margin: auto;
+    width: 60%;
+    /*border: 5px solid #FFFF00;*/
+    padding: 10px;
+}
+
+#inptxt {
+    font-family: 'Caveat', cursive;
+    font-size: 125%;
+    font-weight: 500;
+}
+
+#tarea {
+    height: 840px;
+    width: 480px;
+    font-family: 'Caveat', cursive;
+    font-size: 125%;
+    font-weight: 550;
+    background: transparent;
+    border: none;
+}
+
+#inptxt {
+    width: 520px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#btn {
+    background-color: transparent;
+    border: none;
+}
+
+#text {
+    border-right: 3px solid black;
+}
+
+
+#result {
+    opacity: 0;
+    transition: 1s;
+}
+
+#result.fade-in {
+    opacity: 1;
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px rgb(47, 138, 241);
+}
+
+
+/*#result {
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}*/
